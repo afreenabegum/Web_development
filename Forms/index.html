@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2><u>Student details</u></h2>
+    <form action="backend.php">
+        <div>
+            Name : <input type="text">
+        </div>
+        <br>
+        <div>
+            Roll.No :<input type="roll no">
+        </div>
+        <br>
+        <div>
+            E-Mail :<input type="email">
+        </div>
+        <br>
+        <div>
+            Phone no :<input type="number">
+        </div>
+        <br>
+        <div>
+            College :<input type="college">
+        </div>
+        <br>
+        <div>
+            Address :<input type="address">
+        </div>
+        <br>
+        <div>
+           DOB :<input type="date">
+        </div>
+        <br>
+        <div>
+            Gender :  <input type="radio" name="urGender" >
+                        <label for="male">Male</label>
+                      <input type="radio" name="urGender" >
+                       <label for="female">Female</label>
+                      <input type="radio" name="urGender" >
+                       <label for="othertype">Other</label>
+        </div>
+        <br>
+        <div>
+           Are you interested for placements :
+           <input type="radio" name="agree">
+            <label for="yes">Yes</label>
+           <input type="radio" name="agree">
+            <label for="no">No</label>
+        </div>
+        <div>
+            <h6>Eligibility :</h6> 
+            <input type="checkbox" name="ans">
+                <label for="nation">Are you Indian</label>
+            <input type="checkbox" name="ans">
+                <label for="Student">Are you a Student</label>
+            <input type="checkbox" name="ans">
+                <label for="placed or not">Aiming for Higher Studies</label>
+        </div>
+        <br>
+        <div>
+            <h><b>Your Education :</b> </h> <select name="Education" id="">
+                <option value="Btech">B-Tech</option>
+                <option value="Mtech">M-Tech</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            <p>Tell us about yourself : </p>
+            <textarea name="" id="" cols="20" rows="10"></textarea>
+        </div>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
